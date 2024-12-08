@@ -2,3 +2,40 @@
 #heart {
   color: #c85308;
 }
+@media (min-width: 992px) {
+  .hero__title {
+    font-size: 3em;
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+@media (min-width: 767px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .views {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .views .views__all {
+    margin-left: auto;
+    color: #c85308;
+  }
+}
+.main-article {
+  max-width: 50em;
+}
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+.main-article p {
+  line-height: 1.8;
+}
